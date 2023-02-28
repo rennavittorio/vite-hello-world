@@ -1,10 +1,12 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
 export default {
   components: {
     AppTitle,
+    AppHero,
   },
 
   data() {
@@ -19,6 +21,7 @@ export default {
 <template>
 
   <AppTitle></AppTitle>
+  <AppHero></AppHero>
 
 </template>
 
